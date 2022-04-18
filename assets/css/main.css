@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+.quiz-container {
+  background-color: rgba(235, 235, 235, 0.2196078431);
+  box-shadow: 5px 5px 30px 6px rgba(0, 0, 0, 0.1921568627);
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 7px 8px 10px rgba(0, 0, 0, 0.5019607843);
+  width: 37rem;
+}
+.quiz-container .btnOption {
+  color: #FFF;
+  font-size: 1.4rem;
+  margin: 0.2rem;
+  transition: 0.3s all;
+}
+.quiz-container .btnOption:hover {
+  box-shadow: 3px 7px 10px 1px rgba(0, 0, 0, 0.2666666667);
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+.quiz-container .options button:nth-child(1) {
+  background-color: #1b7dec;
+}
+.quiz-container .options button:nth-child(2) {
+  background-color: #ee2662;
+}
+.quiz-container .options button:nth-child(3) {
+  background-color: #1bbd71;
+}
+.quiz-container .options button:nth-child(4) {
+  background-color: #eeb20e;
+}
+
+#start {
+  background-color: #1bbd71;
+  color: #FFF;
+}
+
+body {
+  background-image: linear-gradient(to bottom, crimson, #0164e6);
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
